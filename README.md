@@ -7,6 +7,7 @@ AIAP20 Technical Assessment Submission
 ## Folder and File Structure
 
 The project has the following folder structure:
+
 aiap20-lee-chee-leong-884I/
 ├── .github/             # Contains GitHub Actions scripts (from the template)
 ├── src/                 # Contains the Python modules for the machine learning pipeline
