@@ -8,18 +8,18 @@ AIAP20 Technical Assessment Submission
 
 The project has the following folder structure:
 
-aiap20-lee-chee-leong-884I/
-├── .github/             # Contains GitHub Actions scripts (from the template)
-├── src/                 # Contains the Python modules for the machine learning pipeline
-│   ├── data_ingestion.py
-│   ├── data_processing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── model_evaluation.py
-├── eda.ipynb            # Jupyter Notebook containing the Exploratory Data Analysis
-├── run.sh               # Bash script to execute the pipeline
-├── requirements.txt     # List of Python packages required
-└── README.md            # This file, explaining the pipeline and EDA summary
+aiap20-lee-chee-leong-884I/  
+├── .github/             # Contains GitHub Actions scripts (from the template)  
+├── src/                 # Contains the Python modules for the machine learning pipeline  
+│   ├── data_ingestion.py  
+│   ├── data_processing.py  
+│   ├── feature_engineering.py  
+│   ├── model_training.py  
+│   └── model_evaluation.py  
+├── eda.ipynb            # Jupyter Notebook containing the Exploratory Data Analysis  
+├── run.sh               # Bash script to execute the pipeline  
+├── requirements.txt     # List of Python packages required  
+└── README.md            # This file, explaining the pipeline and EDA summary  
 
 * `src/`: This directory contains the Python modules for the machine learning pipeline.
     * `data_ingestion.py`: Fetches/imports data from a source (e.g., SQLite database, CSV file).
