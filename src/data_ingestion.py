@@ -44,7 +44,7 @@ def load_data_from_sqlite(db_path, table_name):
 
 if __name__ == "__main__":
     # Example usage:
-    db_path = 'bmarket.db'  # Replace with the actual path to your database file
+    db_path = 'data/bmarket.db'  # Replace with the actual path to your database file
     table_name = 'bank_marketing'  # Replace with the name of the table you want to read
     
     df = load_data_from_sqlite(db_path, table_name)
